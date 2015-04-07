@@ -1,0 +1,23 @@
+ros-jade-battery-monitor-rmp (0.0.2-0vivid) vivid; urgency=high
+
+  * fixed node name in launch
+  * missing dep added for travis
+  * travis now pull messages from source
+  * removed unused build deps
+  * moved to rmp_msgs
+  * Contributors: Russell Toris
+
+ -- Russell Toris <rctoris@wpi.edu>  Tue, 05 Aug 2014 04:00:00 -0000
+
+ros-jade-battery-monitor-rmp (0.0.1-0vivid) vivid; urgency=high
+
+  * cleanup
+  * Merge pull request #1 <https://github.com/WPI-RAIL/battery_monitor_rmp/issues/1> from cmdunkers/master
+    added the code to monitor the RMP Feedback for the battery states
+  * added the code to monitor the RMP Feedback for the battery states
+  * Initial commit
+  * Contributors: Chris Dunkers, Russell Toris
+
+ -- Russell Toris <rctoris@wpi.edu>  Wed, 30 Jul 2014 04:00:00 -0000
+
+
