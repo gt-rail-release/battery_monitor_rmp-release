@@ -1,0 +1,12 @@
+Source: ros-jade-battery-monitor-rmp
+Section: misc
+Priority: extra
+Maintainer: Russell Toris <rctoris@wpi.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin, ros-jade-rospy
+Homepage: http://ros.org/wiki/battery_monitor_rmp
+Standards-Version: 3.9.2
+
+Package: ros-jade-battery-monitor-rmp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-python-ethernet-rmp, ros-jade-rmp-msgs, ros-jade-rospy
+Description: Monitor for the Segway Batteries
